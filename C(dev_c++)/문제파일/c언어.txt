@@ -1,0 +1,57 @@
+c언어
+
+#include <stdio.h>
+	stdio는 Standard Input/Output library
+	"표준 입출력 라이브러리"
+	C언어의 기본적인 도구들이 들어있는 도구상자
+void main()
+	C언어에서 반드시 하나의 main함수가 있어야함 
+	실행을 했을 때 실제로 컴퓨터가 가장 먼저 실행하는 함수
+
+세미 콜론(;)
+	C언어는 세미콜론(;)이 필수
+	모든 문장의 마지막
+
+printf()
+	콘솔창에 출력
+
+printf() 서식지정자 종류
+	서식지정자(형식지정자)는 서식을 지정해주는 문자
+
+서식지정자		출력대상		예시
+%d		int, char	printf("%d", a);, scanf("%d", &a);
+%f		float, double	printf("%f", a);, scanf("%f", &a);
+%g		float, double	printf("%g", a);, scanf("%g", &a);
+%c		int, char	printf("%c", a);, scanf("%c", &a);
+%s		char * (문자열)	printf("%s", a);, scanf("%s", &a);
+
+자료형
+	int 		정수
+	float/double	실수
+	char		문자
+	
+scanf()
+	<stdio.h> 헤더 파일에서 입력을 담당하는 라이브러리 함수
+	명령창에 글이나 숫자를 입력할 수 있도록 만든 함수
+
+서식지정자		의미			예시
+%d		정수를 10진수 입력		scanf("%d", &x);
+%f		float형의 실수 입력	scanf("%f", &x);
+%lf		double형의 실수 입력	scanf("%lf", &x);
+%c		문자형태 입력		scanf("%c", &x);
+%s		문자열형태 입력		char s[10]; scanf("%s", s);
+
+---------------------------------------------
+1. %c와 %s의 차이 서술하고 코드 작성 후 결과 출력하기
+
+2. 3개의 정수(각각 0~6 이내)를 입력받아 총합과 평균 구하기(평균은 소수점 둘째자리에서 반올림 출력)
+
+3. 입력받은 3개의 정수를 가지고 (a+b) * (c-a) * (a%%b) 한 결과 출력
+
+
+
+
+
+
+
+
